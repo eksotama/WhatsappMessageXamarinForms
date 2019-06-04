@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WhatsmsTest" x:Class="WhatsmsTest.MainPage">
+    <StackLayout Padding="20">
+        <Entry x:Name="BoxNumber" Placeholder="Ingresa tu numero" Keyboard="Telephone" />
+        <Button Text="Solicitar código" Clicked="Handle_Clicked" />
+    </StackLayout>
+</ContentPage>
