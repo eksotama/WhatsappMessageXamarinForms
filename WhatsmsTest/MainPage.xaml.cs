@@ -33,7 +33,8 @@ namespace WhatsmsTest
 
             var code = new Random().Next(100000,999999);
             HttpClient client = new HttpClient();
-            client.DefaultRequestHeaders.Add("x-api-key", "nekszer");
+            // Get your ApiKey From https:/whatsmsapi.com
+            client.DefaultRequestHeaders.Add("x-api-key", "YourApiKey");
             HttpResponseMessage response = null;
             try
             {
